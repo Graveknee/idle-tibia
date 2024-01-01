@@ -6,3 +6,11 @@ datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
 }
+
+model Player {
+  id         String   @id @default(cuid()) @map("_id") @db.ObjectId
+  level      Int
+  experience Int
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}

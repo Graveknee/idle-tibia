@@ -6,7 +6,16 @@ This project is an idle game, based on the MMORPG (Massively Multiplayer Online 
 
 ## Purpose
 
-The primary goal with this project has been for me to learn and practice coding, while working with something that has been a major lifelong favorite.
+The primary goal with this project is for me to learn and practice coding, while working with something that has been a major influence in my life.
+
+## Technologies Used
+
+- Next.js
+- React
+- Tailwind CSS
+- Prisma
+- MongoDB
+- Redux
 
 ## Getting Started
 
