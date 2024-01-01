@@ -1,19 +1,21 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import { ReduxProvider } from "@/lib/provider";
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: '',
-  description: '',
-}
+	title: "Idle Tibia",
+};
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode
+	children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
+	return (
+		<html lang="en">
+			<body className="bg-black text-slate-100 container mx-auto p-4">
+				<ReduxProvider>{children}</ReduxProvider>
+			</body>
+		</html>
+	);
 }
