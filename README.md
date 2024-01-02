@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an idle game, based on the MMORPG (Massively Multiplayer Online Role-Playing Game) Tibia. 
+This project is an idle game, based on the MMORPG (Massively Multiplayer Online Role-Playing Game) Tibia. I do not own any rights. Tibia and TibiaME are trademarks of CipSoft GmbH.
 
 ## Purpose
 
@@ -31,6 +31,3 @@ Feel free to explore the code, experiment with modifications, and contribute to 
 ## Contributing
 
 If you're interested in contributing to the project, please fork the repository and submit a pull request with your improvements or additions.
-
-
-
