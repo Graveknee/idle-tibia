@@ -1,8 +1,11 @@
+import Game from "@/components/Game";
+
 export default function Home() {
 	return (
 		<>
-			<header></header>
-			<main></main>
+			<main>
+				<Game />
+			</main>
 		</>
 	);
 }
