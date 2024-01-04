@@ -16,7 +16,9 @@ export default function RootLayout({
 		<html lang="en">
 			<body className="bg-black text-slate-100 container mx-auto p-4">
 				<Header />
-				<ReduxProvider>{children}</ReduxProvider>
+				<div className="max-w-4xl mx-auto px-5 py-14">
+					<ReduxProvider>{children}</ReduxProvider>
+				</div>
 			</body>
 		</html>
 	);
