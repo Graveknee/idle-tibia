@@ -29,8 +29,11 @@ const player = createSlice({
 	},
 	extraReducers: (builder) => {
 		builder.addCase(createPlayer.fulfilled, (state, action) => {
+			console.log("Player reached reducer");
 			if (action.payload) {
 				state.player.id = action.payload.id;
+				console.log("Player created in Reducer successfully");
+				console.log(action.payload);
 			} else {
 				console.log("No player returned from createPlayerAsync");
 			}

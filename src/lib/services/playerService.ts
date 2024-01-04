@@ -8,7 +8,6 @@ export const createPlayerInDb = async () => {
 				experience: 0,
 			},
 		});
-		console.log(createdPlayer.id);
 		return createdPlayer;
 	} catch (error) {
 		console.error(error);

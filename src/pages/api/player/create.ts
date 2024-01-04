@@ -5,6 +5,10 @@ export default async function handler(
 	req: NextApiRequest,
 	res: NextApiResponse
 ) {
+<<<<<<< HEAD
+=======
+	console.log("Reached API");
+>>>>>>> 44f66668bc444cbc76c04037ed7eb2af60e152d9
 	if (req.method === "POST") {
 		try {
 			const player = await createPlayerInDb();
